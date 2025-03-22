@@ -14,5 +14,5 @@ inputs:
     description: 'your build path'
     default: '.'
 runs:
-  using: 'node16'
+  using: 'node23'
   main: 'index.js'
