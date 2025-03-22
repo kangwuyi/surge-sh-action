@@ -95529,24 +95529,12 @@ module.exports = /*#__PURE__*/JSON.parse('{"name":"surge","version":"0.24.6","de
 var __webpack_exports__ = {};
 const surge = __nccwpck_require__(63932)
 const core = __nccwpck_require__(37484)
+// const io = require('@actions/io')
 const os = __nccwpck_require__(70857)
 // import * as exec from '@actions/exec'
 
-async function build(commands, path) {
-  const command = commands.split('\n')
-  command.forEach((com) => {
-    core.info(`Running: ${com}`)
-    exec.exec(com)
-  })
-  core.info('Injecting 200.html')
-  io.mv(path + 'index.html', path + '200.html')
-  core.info('Build done.')
-}
-
 async function run() {
   try {
-    // build 命令
-    const _builds = core.getInput('build')
     // 域名参数
     const domain = core.getInput('domain')
     // 构建产物路径
@@ -95558,9 +95546,6 @@ async function run() {
     if (!process.env.SURGE_TOKEN) {
       throw new Error('环境变量 SURGE_TOKEN 没有设置!')
     }
-
-    // 执行 build
-    build(_builds, project)
 
     // 环境变量直接在 env.SURGE_TOKEN 里设置等同于 process.env.SURGE_TOKEN
     // 此处不再额外执行
