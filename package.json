@@ -8,7 +8,9 @@
     "type": "git",
     "url": "git+https://github.com/kangwuyi/surge-sh-action.git"
   },
-  "keywords": [],
+  "keywords": [
+    "surge.sh"
+  ],
   "author": "",
   "license": "MIT",
   "homepage": "https://github.com/kangwuyi/surge-sh-action#readme",
