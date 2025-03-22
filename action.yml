@@ -1,0 +1,21 @@
+name: 'Publish to surge.sh'
+description: 'Publish to surge.sh'
+branding:
+  icon: 'upload-cloud'
+  color: 'purple'
+inputs:
+  domain:  # id of input
+    description: 'your surge.sh domain to deploy'
+    required: true
+  # login:
+  #   description: 'surge.sh login'
+  #   required: true
+  token:
+    description: 'surge.sh token, generate it with `surge token` command'
+    required: true
+  root:
+    description: 'your project path'
+    default: '.'
+runs:
+  using: 'node16'
+  main: 'index.js'
