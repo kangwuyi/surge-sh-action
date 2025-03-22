@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "surge-sh deploy action",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "ncc build index.js --license licenses.txt"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kangwuyi/surge-sh-action.git"
