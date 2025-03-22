@@ -1,4 +1,4 @@
-name: 'Publish to surge.sh'
+name: '🌈 surge.sh'
 description: 'Publish build file to surge.sh'
 branding:
   icon: 'cloud'
