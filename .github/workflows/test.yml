@@ -27,3 +27,5 @@ jobs:
         with: 
           domain: 'kwy-test.surge.sh'
           root: './public'
+        env:
+          SURGE_TOKEN: ${{secrets.SURGE_TOKEN}}
