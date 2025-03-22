@@ -32,7 +32,7 @@ jobs:
         uses: kangwuyi/surge-sh-action@v1
         with:
           domain: 'foo-bar.surge.sh'
-          root: '/disk'
+          root: './disk'
         env:
           SURGE_TOKEN: ${{secrets.SURGE_TOKEN}}
 ```
