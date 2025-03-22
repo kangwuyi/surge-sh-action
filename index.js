@@ -1,7 +1,7 @@
-import * as surge from 'surge'
-import * as core from '@actions/core'
+const surge = require('surge')
+const core = require('@actions/core')
+const os = require('os')
 // import * as exec from '@actions/exec'
-import os from 'os'
 
 async function run() {
   try {
