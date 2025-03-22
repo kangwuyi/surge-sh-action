@@ -38,4 +38,4 @@ jobs:
 ```
 
 ## local test
-checkout test branch and push
+checkout test branch and push.
