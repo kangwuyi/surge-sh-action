@@ -1,5 +1,5 @@
 {
-  "name": "surge-sh-action",
+  "name": "surge-sh-preview",
   "version": "0.0.1",
   "description": "surge-sh deploy action",
   "main": "index.js",
