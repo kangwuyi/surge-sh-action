@@ -36,3 +36,6 @@ jobs:
         env:
           SURGE_TOKEN: ${{secrets.SURGE_TOKEN}}
 ```
+
+## local test
+checkout test branch and push
