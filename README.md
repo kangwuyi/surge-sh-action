@@ -8,7 +8,7 @@
 
 <p align="center">
 
-![Depfu](https://img.shields.io/depfu/kangwuyi/surge-sh-action) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kangwuyi/surge-sh-action) [![Code Coverage](https://img.shields.io/codecov/c/github/kangwuyi/surge-sh-action)](https://codecov.io/github/kangwuyi/surge-sh-action) [![Build Ci](https://github.com/kangwuyi/surge-sh-action/actions/workflows/test.js.yml/badge.svg)](https://github.com/kangwuyi/kangwuyi/surge-sh-action)
+![Depfu](https://img.shields.io/depfu/kangwuyi/surge-sh-action) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kangwuyi/surge-sh-action) [![Code Coverage](https://img.shields.io/codecov/c/github/kangwuyi/surge-sh-action)](https://codecov.io/github/kangwuyi/surge-sh-action) [![Build Ci](https://github.com/kangwuyi/surge-sh-action/actions/workflows/test.yml/badge.svg)](https://github.com/kangwuyi/kangwuyi/surge-sh-action)
 
 </p>
 
